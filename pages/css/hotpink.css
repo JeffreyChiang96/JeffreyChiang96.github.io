@@ -1,0 +1,75 @@
+html {background-color: white;}
+
+body {
+    width: 0px;
+    margin: 0px auto;
+    padding: 0px 0px 0px;
+    border: 0;
+}
+
+h1 {
+    margin: 0;
+    padding: 20px 0px;
+    color: whitesmoke;
+    font-size: 64px;
+    font-family: "Apple LiGothic", serif;
+    font-weight: initial;
+}
+
+h2 {
+    margin: 0;
+    padding: 45px 15px;
+    color: whitesmoke;
+    font-size: 32px;
+    font-family: "Apple LiGothic", serif;
+    font-weight: lighter;
+}
+
+#cover {
+    position: fixed;
+    top: -50px;
+    left: 0px;
+    width: 1280px;
+    height: 960px;
+}
+
+video {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 1280px;
+    height: 720px;
+}
+
+.header {
+    background: none;
+    position:fixed;
+    width:1230px;
+    height:80px;
+    top:20px;
+    left:20px;
+    z-index:0;
+}
+
+.logo {
+    background: none;
+    position:absolute;
+    width:280px;
+    height:80px;
+    top:0px;
+    left:0px;
+    z-index:0;
+}
+
+.head {
+    background: none;
+    position:absolute;
+    width:150px;
+    height:80px;
+    z-index:0;
+}
+
+.button1{top:0px; left:630px;}
+.button2{top:0px; left:780px;}
+.button3{top:0px; left:930px;}
+.button4{top:0px; left:1080px;}
