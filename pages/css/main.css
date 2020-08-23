@@ -1,12 +1,4 @@
-html {background-color: white;}
-
-body {
-    width: 0px;
-    margin: 0px auto;
-    padding: 0px 0px 0px;
-    border: 0;
-}
-
+/*讀取中的插圖*/
 .loader{
     position: fixed;
     z-index: 99;
@@ -33,9 +25,18 @@ body {
         opacity: 0;
         visibility: hidden;
     }
-    
+
 }
 
+/*背景、非重複、自由伸縮*/
+body {
+    background-image: url(' https://drive.google.com/uc?export=download&id=1jdbcJJbNV2SygJKt0S8hHBz3ae0LcjbK');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/*Bar*/
 h1 {
     margin: 0;
     padding: 20px 0px;
@@ -54,22 +55,6 @@ h2 {
     font-weight: lighter;
 }
 
-#cover {
-    position: fixed;
-    top: -50px;
-    left: 0px;
-    width: 1280px;
-    height: 960px;
-}
-
-video {
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    width: 1280px;
-    height: 720px;
-}
-
 .header {
     background: none;
     position:fixed;
@@ -85,8 +70,8 @@ video {
     position:absolute;
     width:280px;
     height:80px;
-    top:0px;
-    left:0px;
+    top:0;
+    left:0;
     z-index:0;
 }
 
@@ -98,7 +83,7 @@ video {
     z-index:0;
 }
 
-.button1{top:0px; left:630px;}
-.button2{top:0px; left:780px;}
-.button3{top:0px; left:930px;}
-.button4{top:0px; left:1080px;}
+.button1{top:0; left:630px;}
+.button2{top:0; left:780px;}
+.button3{top:0; left:930px;}
+.button4{top:0; left:1080px;}
