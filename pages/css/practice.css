@@ -46,7 +46,7 @@ h1 {
     margin: 0;
     padding: 20px 0px;
     color: whitesmoke;
-    font-size: 64px;
+    font-size: 36px;
     font-family: "Apple LiGothic", serif;
     font-weight: initial;
 }
@@ -55,7 +55,7 @@ h2 {
     margin: 0;
     padding: 45px 15px;
     color: whitesmoke;
-    font-size: 32px;
+    font-size: 18px;
     font-family: "Apple LiGothic", serif;
     font-weight: lighter;
 }
@@ -88,7 +88,7 @@ h2 {
     z-index:0;
 }
 
-.button1{top:0; left:630px;}
+.button1{top:0; left:530px;}
 .button2{top:0; left:780px;}
 .button3{top:0; left:930px;}
 .button4{top:0; left:1080px;}
