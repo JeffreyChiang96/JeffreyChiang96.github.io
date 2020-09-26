@@ -1,4 +1,4 @@
-/*讀取中的插圖*/
+/*Loader 讀取中的插圖*/
 .loader{
     position: fixed;
     z-index: 99;
@@ -28,10 +28,10 @@
 
 }
 
-/*背景去邊邊*/
+/*Background 背景去邊邊*/
 body{ margin: 0; padding: 0; }
 
-/*響應式圖片*/
+/*DWG picture 響應式圖片*/
 picture img {
     text-align: center;
     display: block;
@@ -41,28 +41,73 @@ picture img {
     width:100%;
 }
 
+/*Main*/
+.projectpic{
+    padding-bottom:30px;
+}
+
+/*Navbar*/
 .navbar-brand
 {
     font-family: 'Raleway', sans-serif;
-    color:whitesmoke;
-    font-size: 48px;
+    color:darkgrey;
+    font-size: 18px;
     margin: 0px;
 }
 
 .navbar-brand:hover {
-    color:gray;
+    color:black;
 }
 
 .nav-link
 {
     font-family: 'Raleway', sans-serif;
-    color:whitesmoke;
-    font-size: 24px;
+    color:darkgrey;
+    font-size: 18px;
     margin: 0px;
 }
 
-
 .nav-link:hover {
-    color:darkgray;
+    color:black;
 }
 
+/*Index-Main*/
+.index-main {
+    position:absolute;
+    z-index:0;
+    top: -150px;
+}
+
+.index-overlap {
+    position:absolute;
+    z-index:1;
+}
+
+.index-background {
+    position:relative;
+}
+
+.index-title {
+    position:relative;
+    top: 150px;
+    left:100px;
+}
+
+.index-content {
+    position:relative;
+    top: 150px;
+    left:100px;
+}
+
+.index-logo {
+    position:relative;
+    top: 150px;
+    left:100px;
+}
+
+
+
+.title {
+    padding-top:10px;
+    padding-bottom:10px;
+}
