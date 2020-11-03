@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <title>Chiang Po-Lin</title>
 
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
-    <link rel="stylesheet" href="assets/css/font.css" type="text/css">
+    <link rel="stylesheet" href="assets/stylesheets/style.css" type="text/css">
+    <link rel="stylesheet" href="assets/stylesheets/font.css" type="text/css">
 
     <!-- Bootstrap -->
     <link rel="stylesheet"
@@ -25,131 +24,115 @@
     <!-- Logo -->
     <script src="https://kit.fontawesome.com/44ee5ac429.js" crossorigin="anonymous"></script>
 </head>
-
 <body>
 
-<!-- LOADER -->
-
-<!--<div class="loader">-->
-<!--    <img src="https://upload.wikimedia.org/wikipedia/commons/b/b1/Loading_icon.gif" alt="loading...">-->
-<!--</div>-->
-
-
-<!-- NAVBAR -->
-<nav class="navbar navbar-expand-md fixed-top"
-     style="background-color:white;">
-
-    <!-- CONTAINER --> <!-- 滿板 -->
-    <div class="container-fluid">
-
-        <!-- HEADER -->
-        <div class="navbar-header">
-            <a class="navbar-brand" href="https://chiangpolin.herokuapp.com/">CHIANG PO-LIN</a>
-        </div>
-
-        <!-- LINK --> <!--可折疊 -->
-        <div class="collapse navbar-collapse"
-             id="collapsibleNavbar">
-            <ul class="nav navbar-nav ml-auto">
-
-                <li class="nav-item">
-                    <a class="nav-link" href="#">
-                        <span>&#183;</span>
-                        Design
-                    </a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="#">
-                        <span>&#183;</span>
-                        Data Visualization
-                    </a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="#">
-                        <span>&#183;</span>
-                        Animation
-                    </a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="#">
-                        <span>&#183;</span>
-                        Computer Graphics
-                    </a>
-                </li>
-
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">
-                        <span>&#183;</span>
-                        Resume
-                    </a>
-                </li>
-
-            </ul>
-        </div>
-
-    </div>
-
-</nav>
-
-<!-- MAIN -->
-<div class="index-main">
-
-    <div class="container">
-        <div class="row">
-
-            <div class="col-12 col-md-12 col-xl-4">
-                <div class="index-title">
-                    <h1>Hello, I'm<br>Chiang, Po-Lin</h1>
-                    <br>
-                </div>
-                <div class="index-content">
-                    <h3>
-                        I have encountered a wide range of
-                        <a href="#">
-                            design
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-md fixed-top"
+         style="background-color:white;">
+        <!-- Container --> <!-- Fluid -->
+        <div class="container-fluid">
+            <!-- Header -->
+            <div class="navbar-header">
+                <a class="navbar-brand" href="https://chiangpolin.herokuapp.com/">CHIANG PO-LIN</a>
+            </div>
+            <!-- Link --> <!--Collapse -->
+            <div class="collapse navbar-collapse"
+                 id="collapsibleNavbar">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./public/todoo.html">
+                            <span>&#183;</span>
+                            Todo List
                         </a>
-                        challenge during school
-                        time in NCKU, and developed my
-                        skills in computational drawing,
-                        defining questions, setting up
-                        <a href="#">
-                            programs
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <span>&#183;</span>
+                            Data Visualization
                         </a>
-                        and realizing concepts by
-                        drafting and rendering.
-                    </h3>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <span>&#183;</span>
+                            Animation
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <span>&#183;</span>
+                            Computer Graphics
+                        </a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">
+                            <span>&#183;</span>
+                            Resume
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
+    <!-- MAIN -->
+    <div class="index-main">
+        <!-- Container -->
+        <div class="container">
+            <div class="row">
+                <!-- Body -->
+                <div class="col-12 col-md-12 col-xl-4 order-2 order-md-1">
+                    <div class="index-title">
+                        <h1>Hello, I'm<br>Chiang, Po-Lin</h1>
+                        <br>
+                    </div>
+                    <div class="index-content">
+                        <h3>
+                            I have encountered a wide range of
+                            <a href="#">
+                                design
+                            </a>
+                            challenge during school
+                            time in NCKU, and developed my
+                            skills in computational drawing,
+                            defining questions, setting up
+                            <a href="#">
+                                programs
+                            </a>
+                            and realizing concepts by
+                            drafting and rendering.
+                        </h3>
+                    </div>
+                    <div class="index-logo">
+                        <br>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-github"></i>
+                        <div id="like_button_container"></div>
+                    </div>
                 </div>
-                <div class="index-logo">
-                    <br>
-                    <i class="fab fa-instagram"></i>
-                    <i class="fab fa-github"></i>
-                    <i class="fab fa-linkedin"></i>
+                <!-- Picture -->
+                <div class="col-12 col-md-12 col-xl-8 order-1 order-md-2">
+                    <picture class="index-background">
+                        <source media="(max-width: 719px)"
+                                srcset="https://drive.google.com/uc?export=download&id=10gpFOwDreJVAobiv_P1Te_J-ieRrnvyW">
+                        <source media="(min-width: 720px)"
+                                srcset="https://drive.google.com/uc?export=download&id=10gpFOwDreJVAobiv_P1Te_J-ieRrnvyW">
+                        <source media="(min-height: 1440px)"
+                                srcset="https://drive.google.com/uc?export=download&id=10gpFOwDreJVAobiv_P1Te_J-ieRrnvyW">
+                        <img src="https://drive.google.com/uc?export=download&id=1cgI2kp8DN67IBx14yUffxA6FegBRwEoe"
+                             alt="cover">
+                    </picture>
                 </div>
             </div>
-
-            <div class="col-12 col-md-12 col-xl-8">
-                <picture class="index-background">
-                    <source media="(max-width: 719px)"
-                            srcset="https://drive.google.com/uc?export=download&id=10gpFOwDreJVAobiv_P1Te_J-ieRrnvyW">
-                    <source media="(min-width: 720px)"
-                            srcset="https://drive.google.com/uc?export=download&id=10gpFOwDreJVAobiv_P1Te_J-ieRrnvyW">
-                    <source media="(min-height: 1440px)"
-                            srcset="https://drive.google.com/uc?export=download&id=10gpFOwDreJVAobiv_P1Te_J-ieRrnvyW">
-                    <img src="https://drive.google.com/uc?export=download&id=1cgI2kp8DN67IBx14yUffxA6FegBRwEoe"
-                         alt="cover">
-                </picture>
-            </div>
-
         </div>
     </div>
 
-</div>
+    <!-- 載入 React。 -->
+    <!-- 注意：在發佈應用程式前，請把「development.js」替換成「production.min.js」。 -->
+    <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
 
-<!--<script src="assets/js/main.js" type="text/javascript"></script>-->
+    <!-- 載入我們的 React component。-->
+    <script src="src/like_button.js"></script>
 
 </body>
 </html>

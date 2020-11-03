@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="../src/todo.css"/>
+    <link rel="stylesheet" type="text/css" href="../src/todoo.css"/>
+    <link rel="stylesheet" type="text/css" href="../src/todolist.css"/>
+    <link rel="stylesheet" type="text/css" href="../src/todoform.css"/>
+</head>
+<body>
+    <div id="todoo"></div>
+
+    <!-- 載入 React。 -->
+    <!-- 注意：在發佈應用程式前，請把「development.js」替換成「production.min.js」。 -->
+    <script src="https://unpkg.com/react@16/umd/react.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <script src="http://wzrd.in/standalone/uuid%2Fv4@latest"></script>
+
+    <!-- 載入我們的 React component。-->
+    <script type="text/babel" src="../src/todo.js"></script>
+    <script type="text/babel" src="../src/todoform.js"></script>
+    <script type="text/babel" src="../src/todolist.js"></script>
+    <script type="text/babel" src="../src/todoo.js"></script>
+</body>
+</html>
