@@ -16,10 +16,5 @@
     "url": "https://github.com/chiangpolin/chiangpolin.github.io/issues"
   },
   "homepage": "https://github.com/chiangpolin/chiangpolin.github.io#readme",
-  "dependencies": {
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "react-scripts": "^4.0.0",
-    "uuid": "^8.3.1"
-  }
+  "dependencies": {}
 }
