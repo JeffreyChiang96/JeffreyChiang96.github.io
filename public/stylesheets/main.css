@@ -1,0 +1,101 @@
+/* Background
+------------------------------------------------------ */
+body{ margin: 0; padding: 0; }
+
+
+/* DWG Picture
+------------------------------------------------------ */
+picture img {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    object-fit: contain;
+    height:auto;
+    width:100%;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* Navbar
+------------------------------------------------------ */
+.navbar-brand
+{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav-link
+{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav-link:hover {
+    color:black;
+}
+
+
+/* Main
+------------------------------------------------------ */
+.index-main {
+    position:relative;
+    z-index:0;
+    padding-top: 120px;
+    min-height: 100vh;
+}
+@media (min-width: 768px){
+    .index-main {
+        position:relative;
+        z-index:0;
+        padding-top: 120px;
+        padding-left: 100px;
+        padding-right: 100px;
+        min-height: 100vh;
+    }
+}
+
+.index-background {
+    position:relative;
+    text-align: center;
+    z-index:0;
+}
+
+.index-title {
+    position:relative;
+    top: 0;
+    left:0;
+}
+
+.index-content {
+    position:relative;
+    top: 0;
+    left:0;
+}
+
+.index-logo {
+    position:relative;
+    top: 0;
+    left:0;
+}
+
+/* Parallax
+------------------------------------------------------ */
+.parallax {
+    min-height: 100vh;
+    background: transparent;
+}
+
+/* fa-icon
+------------------------------------------------------ */
+.fa-facebook { font-size: 48px;}
+.fa-instagram { font-size: 48px; }
+.fa-github { font-size: 48px; }

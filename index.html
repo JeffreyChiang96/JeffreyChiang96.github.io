@@ -3,8 +3,7 @@
 <head>
     <title>Chiang Po-Lin</title>
 
-    <link rel="stylesheet" href="assets/stylesheets/style.css" type="text/css">
-    <link rel="stylesheet" href="assets/stylesheets/font.css" type="text/css">
+    <link rel="stylesheet" href="public/stylesheets/main.css" type="text/css">
 
     <!-- Bootstrap -->
     <link rel="stylesheet"
@@ -23,53 +22,27 @@
 
     <!-- Logo -->
     <script src="https://kit.fontawesome.com/44ee5ac429.js" crossorigin="anonymous"></script>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+
 </head>
 <body>
 
     <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-md fixed-top"
-         style="background-color:white;">
-        <!-- Container --> <!-- Fluid -->
-        <div class="container-fluid">
-            <!-- Header -->
-            <div class="navbar-header">
-                <a class="navbar-brand" href="#">CHIANG PO-LIN</a>
-            </div>
-            <!-- Link --> <!--Collapse -->
-            <div class="collapse navbar-collapse"
-                 id="collapsibleNavbar">
-                <ul class="nav navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="./public/todoo.html">
-                            <span>&#183;</span>
-                            Todo List
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">
-                            <span>&#183;</span>
-                            Data Visualization
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">
-                            <span>&#183;</span>
-                            Animation
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">
-                            <span>&#183;</span>
-                            Computer Graphics
-                        </a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">
-                            <span>&#183;</span>
-                            Resume
-                        </a>
-                    </li>
-                </ul>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+        <a class="navbar-brand" href="#">CHIANG PO-LIN</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto">
+                <a class="nav-item nav-link" href="https://driverlesscity.herokuapp.com/">Data Visualization</a>
+                <a class="nav-item nav-link" href="https://fortprovintia.herokuapp.com/home">Web Design</a>
+                <a class="nav-item nav-link" href="https://fortprovintia.herokuapp.com/interaction">3D graphics</a>
+                <a class="btn btn-outline-dark" href="#">Resume</a>
             </div>
         </div>
     </nav>
@@ -80,52 +53,54 @@
         <div class="container">
             <div class="row">
                 <!-- Body -->
-                <div class="col-12 col-md-12 col-xl-4 order-2 order-md-1">
+                <div class="col-12 col-md-12 col-xl-5 order-2 order-md-1">
                     <div class="index-title">
-                        <h1>Hello, I'm<br>Chiang, Po-Lin</h1>
+                        <br>
+                        <h1>Hello, I'm<br>Po-Lin Chiang</h1>
                         <br>
                     </div>
                     <div class="index-content">
                         <h3>
-                            I have encountered a wide range of
-                            <a href="#">
-                                design
-                            </a>
-                            challenge during school
-                            time in NCKU, and developed my
-                            skills in computational drawing,
-                            defining questions, setting up
-                            <a href="#">
-                                programs
-                            </a>
-                            and realizing concepts by
-                            drafting and rendering.
+                            With Architecture and Design background,
+                            I'm currently learning coding and exploring web techniques.
+
                         </h3>
                     </div>
                     <div class="index-logo">
                         <br>
-                        <i class="fab fa-instagram"></i>
-                        <i class="fab fa-facebook"></i>
-                        <i class="fab fa-github"></i>
-                        <div id="like_button_container"></div>
+                        <a class="btn" href="https://www.instagram.com/jeffreychiang1996/?hl=zh-tw">
+                            <i class="fab fa-instagram" ></i>
+                        </a>
+                        <a class="btn" href="https://www.facebook.com/jeffrey.chiang.37">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a class="btn" href="https://github.com/chiangpolin">
+                            <i class="fab fa-github"></i>
+                        </a>
                     </div>
                 </div>
                 <!-- Picture -->
-                <div class="col-12 col-md-12 col-xl-8 order-1 order-md-2">
+                <div class="col-12 col-md-12 col-xl-7 order-1 order-md-2">
                     <picture class="index-background">
-                        <source media="(max-width: 719px)"
-                                srcset="https://drive.google.com/uc?export=download&id=10gpFOwDreJVAobiv_P1Te_J-ieRrnvyW">
-                        <source media="(min-width: 720px)"
-                                srcset="https://drive.google.com/uc?export=download&id=10gpFOwDreJVAobiv_P1Te_J-ieRrnvyW">
-                        <source media="(min-height: 1440px)"
-                                srcset="https://drive.google.com/uc?export=download&id=10gpFOwDreJVAobiv_P1Te_J-ieRrnvyW">
-                        <img src="https://drive.google.com/uc?export=download&id=1cgI2kp8DN67IBx14yUffxA6FegBRwEoe"
+                        <img src="https://drive.google.com/uc?export=download&id=10gpFOwDreJVAobiv_P1Te_J-ieRrnvyW"
                              alt="cover">
                     </picture>
                 </div>
             </div>
         </div>
     </div>
+
+    <!-- Parallax -->
+    <div class="parallax" data-parallax="scroll" data-z-index="1" data-image-src="https://drive.google.com/uc?export=view&id=16zCJu33QgVLsR0mv3PvYsfELMyZ1Vx1l"></div>
+    <div class="parallax" data-parallax="scroll" data-z-index="1" data-image-src="https://drive.google.com/uc?export=view&id=1VIECUZ20mz6E8EMezDCY_KVBZeDLV8XD"></div>
+    <div class="parallax" data-parallax="scroll" data-z-index="1" data-image-src="https://drive.google.com/uc?export=view&id=1sxCVOA7htkleL-nd7YmzjxUOX55VUpWq"></div>
+    <div class="parallax" data-parallax="scroll" data-z-index="1" data-image-src="https://drive.google.com/uc?export=view&id=1HJwubYLCU8mDCnc2i1xcg9ybRzhzhrrp"></div>
+    <div class="parallax" data-parallax="scroll" data-z-index="1" data-image-src="https://drive.google.com/uc?export=view&id=1g6EkBGhBcwfvnIHApz9OS2DYDy1RHjme"></div>
+    <div class="parallax" data-parallax="scroll" data-z-index="1" data-image-src="https://drive.google.com/uc?export=view&id=1oNgp3OmsEpZxa2JLabN7TLTHKSR-pYnV"></div>
+
+    <!-- Parallax JS-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="./public/javascripts/parallax.min.js"></script>
 
 </body>
 </html>
